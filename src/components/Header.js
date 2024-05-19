@@ -48,7 +48,7 @@ const Header = () => {
   return (
     <HeaderContainer>
       <Logo>
-        <img src='/assets/images/MotionArtEffect-logo.png' alt="MotionArtEffect Logo" />
+        <img src={`${process.env.PUBLIC_URL}/assets/images/MotionArtEffect-logo.png`} alt="MotionArtEffect Logo" />
       </Logo>
       <PurchaseButton>Purchase Now</PurchaseButton>
     </HeaderContainer>
